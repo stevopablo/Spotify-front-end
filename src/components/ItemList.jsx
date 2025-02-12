@@ -1,8 +1,11 @@
 import React from "react";
-import SingleItem from "./ItemList";
+import SingleItem from "./SingleItem";
 import { Link } from "react-router-dom";
 
 const ItemList = ({ title, items, itemsArray, path, idPath }) => {
+  if (!itemsArray) {
+    return <div>No items available</div>;
+  }
 
   return (
     <div className="item-list">
