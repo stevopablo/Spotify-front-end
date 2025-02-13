@@ -2,7 +2,6 @@ import React from "react";
 import { songsArray } from '../assets/database/songs'
 import { artistArray } from '../assets/database/artists'
 import ItemList from "./ItemList";
-import { faUnderline } from "@fortawesome/free-solid-svg-icons";
 
 const Main = ({ type  }) => {
   return (
