@@ -26,7 +26,7 @@ const Player = ({ duration, randomIdFromArtist, randomId2FromArtist }) => {
       </div>
 
       <div className="player__progress">
-        <p>00:00</p>
+        <p>00</p>
 
         <div className="player__bar">
           <div className="player__bar-progress"></div>
