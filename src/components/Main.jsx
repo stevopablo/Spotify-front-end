@@ -6,6 +6,7 @@ import ItemList from "./ItemList";
 const Main = ({ type  }) => {
   return (
     <div className="main">
+      
       {type  === 'artists' || type === undefined ? <ItemList
       title='Artistas'
       items={10}
