@@ -11,7 +11,7 @@ const Main = ({ type  }) => {
       title='Artistas'
       items={10}
       itemsArray={artistArray}
-      path='/artist'
+      path='/artists'
       idPath='/artist'
       /> : <></>
     }
